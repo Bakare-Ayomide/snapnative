@@ -29,14 +29,27 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "SnapNative" },
+      { name: "description", content: "powered by Duwit & Expo
+Vibe code your
+mobile app in seconds
+Type an idea. Get a working React Native + Expo app" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "SnapNative" },
+      { property: "og:description", content: "powered by Duwit & Expo
+Vibe code your
+mobile app in seconds
+Type an idea. Get a working React Native + Expo app" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "SnapNative" },
+      { name: "twitter:description", content: "powered by Duwit & Expo
+Vibe code your
+mobile app in seconds
+Type an idea. Get a working React Native + Expo app" },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0b8b17c6-e797-418e-b6b2-84e4eff42dde" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/0b8b17c6-e797-418e-b6b2-84e4eff42dde" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
